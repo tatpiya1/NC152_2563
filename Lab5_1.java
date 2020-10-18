@@ -20,8 +20,9 @@ public class Lab5_1 {
 			JOptionPane.showMessageDialog(null, num2 + "<" + num3 + "<" + num1);
 		else if (num1 <= num2 && num3 <= num2 && num3 <= num1)
 			JOptionPane.showMessageDialog(null, num3 + "<" + num1 + "<" + num2);
-		//Tatpiya Jirasakrojn 5907101005
+
 		
 	}
 
 }
+//Tatpiya Jirasakrojn 5907101005
