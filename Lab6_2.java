@@ -6,9 +6,9 @@ public class Lab6_2 {
 		int status = Integer.parseInt(statusSting);
 		String xString = JOptionPane.showInputDialog("Enter x ");
 		String yString = JOptionPane.showInputDialog("Enter y ");
-		int x = Integer.parseInt(xString);
-		int y = Integer.parseInt(yString);
-		int z;
+		double x = Integer.parseDouble(xString);
+		double y = Integer.parseDouble(yString);
+		double z;
 		if(status == 1) {
 			z = x + y;
 			JOptionPane.showMessageDialog(null, "Answer is " + z);
